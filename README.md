@@ -15,7 +15,7 @@ composer require yzh52521/flysystem-aliyun-oss
 
 ```php
 use League\Flysystem\Filesystem;
-use Xxtime\Flysystem\Aliyun\OssAdapter;
+use yzh52521\Flysystem\Oss\OssAdapter;
 
 $aliyun = new OssAdapter([
     'accessId'       => '<aliyun access id>',
