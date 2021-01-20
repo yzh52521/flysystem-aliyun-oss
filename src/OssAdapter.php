@@ -22,7 +22,7 @@ class OssAdapter extends AbstractAdapter
     private $oss;
 
     /**
-     * @var Oss bucket
+     * @var string bucket
      */
     private $bucket;
 
