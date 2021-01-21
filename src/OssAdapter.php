@@ -5,6 +5,7 @@ namespace yzh52521\Flysystem\Oss;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Config;
+use League\Flysystem\Util;
 use OSS\OssClient;
 use Exception;
 
@@ -22,7 +23,7 @@ class OssAdapter extends AbstractAdapter
     private $oss;
 
     /**
-     * @var string bucket
+     * @var AliYun bucket
      */
     private $bucket;
 
